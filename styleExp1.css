@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    text-decoration: wavy;
+}
+body{
+    background-color:black;
+}
+.container{
+    margin: 100px 0 0 200px;
+    height: 450px;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.container img{
+    border-radius: 10px;
+    object-fit:cover;
+    height: 100%;
+    width: 10%;
+    border: 2px solid rgba(255, 255, 255, 0.684);
+    transition: ease-in-out;
+}
+.container img:hover{
+    width: 25%;
+ }
+marquee{
+    transition-duration: 2s;
+}
+.img1{
+    height: 100px;
+    width: 100px;
+}
+.img2{
+    height: 100px;
+    width:100px
+}
